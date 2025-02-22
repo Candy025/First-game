@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de Saut</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <img id="player" src=player.png alt="Joueur">
+        <img id="obstacle" src=obstacle.png alt="Obstacle">
+        <div id="score">Score: 0</div>
+    </div>
+    <script src="script.js"></script>
+
+    <audio id="bgMusic" loop></audio>
+
+    <button onclick="playMusic('Oldboy OST - 24 - The Last Waltz.mp3')">🎵 Chanson 1</button>
+    <button onclick="playMusic('Oldboy OST - 23 - The Big Sleep.mp3')">🎵 Chanson 2</button>
+    <button onclick="playMusic('Oldboy OST - 22 - Farewell, My Lovely.mp3')">🎵 Chanson 3</button>
+    <button onclick="playMusic('Oldboy OST - 20 - Kiss Me Deadly.mp3')">🎵 Chanson 4</button>
+    <button onclick="stopMusic()">⏹️ Stop</button>
+
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7c1e07; /* Fond bleu ciel */
+    margin: 0;
+    padding: 0;
+}
+
+#game-container {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    border: 2px solid #000;
+    background-image: url('background.png'); /* Remplacer par le chemin de ton image */
+    background-size: cover; /* Permet à l'image de remplir tout le container */
+    background-position: center; /* Centre l'image dans le container */
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+#player {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    transform: translateX(-50%);
+}
+
+#obstacle {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    transform: translateX(-50%);
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fcf7f7;
+}
